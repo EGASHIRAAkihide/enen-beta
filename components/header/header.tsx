@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import { GiHamburger } from 'react-icons/gi'
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-slate-300">
       <nav>
         <div>
           <Image
@@ -16,11 +17,16 @@ const Header = () => {
           <li>
             <a href="#about">About</a>
             <a href="#work">Work</a>
-            <a href="#contact">contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
+        <div>
+          <GiHamburger />
+        </div>
       </nav>
-      <div>image</div>
+      <div>
+        hero image
+      </div>
     </header>
   )
 }
