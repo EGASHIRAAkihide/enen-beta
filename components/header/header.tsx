@@ -57,7 +57,7 @@ const Header = () => {
           <GiHamburger size={32} />
         </div>
       </div>
-      <nav className={isNavOpen ? "absolute bg-white flex flex-wrap items-center jusfity-start py-8 w-full lg:hidden" : "hidden"}>
+      <nav className={isNavOpen ? "absolute bg-slate-100 flex flex-wrap items-center jusfity-start py-8 w-full lg:hidden" : "hidden"}>
         <ul className="w-full">
           <li className="cursor-pointer pt-3 md:pt-6 pr-3 md:pr-6 pb-3 md:pb-6 pl-6 md:pl-11 transition-all w-full hover:bg-slate-100">
             <a href="#about" className="text-base md:text-lg">About ENEN</a>
