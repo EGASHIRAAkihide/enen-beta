@@ -13,7 +13,14 @@ const Home: NextPage = () => {
 
       <Header />
 
-      <div className="container w-full">hello, world</div>
+      <div className="container w-full">
+        <div>About</div>
+        <div>Company（別ページ遷移予定）</div>
+        <div>Works</div>
+        <div>Members</div>
+        <div>Contact</div>
+        <div>Related Business（別ページ遷移予定）</div>
+      </div>
     </div>
   )
 }
